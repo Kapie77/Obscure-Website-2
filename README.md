@@ -26,3 +26,21 @@ Exemplo:
 ```bash
 http://localhost:8000/pages/english/uk_index.htm
 ```
+
+# Como baixei os .swf do flash
+```bash
+cd /d "C:\Users\User\Music\obscure website (consertado)\pages\espanol\pages\bibliotheque"
+mkdir swf
+curl.exe -L "https://web.archive.org/web/20060102010046id_/http://es.obscure-game.com/bibliotheque_es.swf" -o "swf\bibliotheque_es.swf"
+```
+
+```bash
+cd /d "C:\Users\User\Music\obscure website (consertado)\pages\espanol\pages\classroom"
+mkdir swf
+curl.exe -L "https://web.archive.org/web/20070108024927id_/http://es.obscure-game.com/classroom_es.swf" -o "swf\classroom_es.swf"
+```
+```bash
+cd /d "C:\Users\User\Music\obscure website (consertado)\pages\espanol\pages\amphi"
+mkdir swf
+curl.exe -L "https://web.archive.org/web/20070112165355id_/http://es.obscure-game.com/amphitheatre_es.swf" -o "swf\amphitheatre_es.swf"
+```
