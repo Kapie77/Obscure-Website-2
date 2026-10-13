@@ -4,5 +4,5 @@ Ruffle emula o Flash nos navegadores modernos. Ele consegue executar muitos arqu
 
 precisa da versão "self-hosted" do Ruffle.
 
-Para editar o .swf (onde fica o flash do site) usei o programa JPEXS Free Flash Decompiler.
+Para editar o .swf (onde fica o flash do site) usei o programa [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler).
 O script responsável pelos idiomas da pagina principal é scripts -> frame 71 - DoAction
