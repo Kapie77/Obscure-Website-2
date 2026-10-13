@@ -44,3 +44,21 @@ cd /d "C:\Users\User\Music\obscure website (consertado)\pages\espanol\pages\amph
 mkdir swf
 curl.exe -L "https://web.archive.org/web/20070112165355id_/http://es.obscure-game.com/amphitheatre_es.swf" -o "swf\amphitheatre_es.swf"
 ```
+
+# Como arrumei os URLs dos .swf
+Exemplo no do alemão:
+(no index das pags):
+../../de_index.htm
+../amphi/amphi_de.htm
+../classroom/classroom_de.htm
+../bibliotheque/bibliotheque_de.htm
+
+(no index principal dos idiomas):
+pages/bibliotheque/bibliotheque_de.htm
+pages/amphi/amphi_de.htm
+pages/clasroom/classroom_de.htm
+
+patch:
+./files/Obscure_1_1_Patch_UK.exe
+./files/Obscure_1_1_Patch_SP_DE.exe
+./files/Obscure_1_1_Patch_FR_IT.exe
