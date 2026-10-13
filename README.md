@@ -12,3 +12,17 @@ Como alterei o url do .exe: abri o "decor_anim_uk.swf", entrei em DefineButton 2
 ./files/Obscure_1_1_Patch_UK.exe
 
 os urls de "classrom", "anphi", também estão nesse .swf. Pesquisei pelo url em "text search" também e alterei eles.
+
+# Como abrir um servidor local para testar o flash
+Ir para a pasta do site:
+```bash
+cd /d "C:\Users\User\Music\obscure website (consertado)"
+```
+Criar servidor python local:
+```bash
+python -m http.server 8000
+```
+Exemplo:
+```bash
+http://localhost:8000/pages/english/uk_index.htm
+```bash
