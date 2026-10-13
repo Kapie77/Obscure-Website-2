@@ -6,7 +6,7 @@ precisa da versão "self-hosted" do Ruffle.
 
 Para editar o .swf (onde fica o flash do site) usei o programa [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler).
 O script responsável pelos idiomas da pagina principal é scripts -> frame 71 - DoAction
---
+
 Como alterei o url do .exe: abri o "decor_anim_uk.swf", entrei em DefineButton 2 (child: 244) -> BUTTONCONDACTION on(release). Ou vá em Tols -> Text search e pesquise por "http://www.obscure-game.com/patch/Obscure_1_1_Patch_UK.exe".
 
 ./files/Obscure_1_1_Patch_UK.exe
