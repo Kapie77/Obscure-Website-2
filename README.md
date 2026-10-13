@@ -1,4 +1,4 @@
-O - [site do obscure](https://web.archive.org/web/20051106024935/http://www.obscure-game.com/fr/index.htm) - foi feito em Flash Player 6.
+O [site do obscure](https://web.archive.org/web/20051106024935/http://www.obscure-game.com/fr/index.htm) foi feito em Flash Player 6.
 
 Ruffle emula o Flash nos navegadores modernos. Ele consegue executar muitos arquivos antigos, embora alguns recursos do Flash Player 6 possam não ser totalmente compatíveis.
 
