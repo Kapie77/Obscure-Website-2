@@ -62,3 +62,4 @@ patch:
 ./files/Obscure_1_1_Patch_UK.exe
 ./files/Obscure_1_1_Patch_SP_DE.exe
 ./files/Obscure_1_1_Patch_FR_IT.exe
+./files/bande_annonce.zip
