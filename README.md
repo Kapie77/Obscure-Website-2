@@ -25,4 +25,4 @@ python -m http.server 8000
 Exemplo:
 ```bash
 http://localhost:8000/pages/english/uk_index.htm
-```bash
+```
