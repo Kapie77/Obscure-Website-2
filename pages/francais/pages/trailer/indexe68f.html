@@ -54,16 +54,22 @@ function voldown() {
     autoplay
     playsinline
     preload="auto"
-    style="
-        display: block;
-        background: #000;
-        object-fit: contain;
-    "
+    style="display:block; background:#000; object-fit:contain;"
 >
     <source src="../../files/1147076633.mp4" type="video/mp4">
 </video>
 
-<!-- original era:
+<script>
+window.addEventListener("load", function () {
+    const player = document.getElementById("player");
+
+    player.play().catch(function (error) {
+        console.log("A reprodução automática foi bloqueada:", error);
+    });
+});
+</script>
+
+<!-- original era (não tinha o javascript que criei acima pra tocar o video automaticamente):
 <object id="player" width="320" height="200" classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" style="LEFT: 0px;TOP: 0px; background-image: url(https://web.archive.org/web/20120701151445im_/http://pagesinxt.com/?dn=www.obscure-game.com&amp;flrdr=yes&amp;nxte=jpg) ;background-repeat: no-repeat; background-position: center center;" codebase="https://web.archive.org/web/20040906221739oe_/http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,5,715" standby="Loading Microsoft� Windows� Media Player components..." type="application/x-oleobject">
 	<param name="AutoStart" value="True">
 	<video
